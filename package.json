@@ -1,6 +1,6 @@
 {
     "name": "subjects-utils",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "homepage": "https://github.com/GitbookIO/subjects-utils",
     "description": "Utilities to use subject codes (BISAC)",
     "main": "index.js",
