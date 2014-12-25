@@ -4,7 +4,9 @@
     "homepage": "https://github.com/GitbookIO/subjects-utils",
     "description": "Utilities to use subject codes (BISAC)",
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "capitalize": "0.5.0"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/GitbookIO/subjects-utils.git"
