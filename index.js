@@ -42,9 +42,20 @@ var getGenerals = function() {
     return generals;
 };
 
+// Return a bisac subject by its label substring
+var searchByLabel = function(query) {
+    var subjects = [];
+    query = query.toLowerCase()
+    for (var subject of BISAC)
+        if (subject.label.toLowerCase().search(query) + 1)
+            subjects.push(subject);
+    return subjects;
+}
+
 module.exports = {
     byCode: getByCode,
     byLabel: getByLabel,
+    search: searchByLabel,
     getGenerals: getGenerals,
     all: {
         bisac: BISAC
