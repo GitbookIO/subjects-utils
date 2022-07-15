@@ -32,6 +32,13 @@ var subject = subjects.byLabel('ANTIQUES & COLLECTIBLES / Dolls');
 // subject.code -> "ANT007000"
 ```
 
+Search subjects by lable name, return an array of subjects that have the lable match the query.
+
+```js
+var dollSubjects = subjects.search('ANTIQUES & COLLECTIBLES / Dolls');
+// dollSubjects -> [ { code: 'ANT015000', label: 'ANTIQUES & COLLECTIBLES / Dolls' } ]
+```
+
 All BISAC codes:
 
 ```js
